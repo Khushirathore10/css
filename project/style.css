@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background: #f7f0f7;
+    background: linear-gradient(90deg, rgba(247, 240, 247, 1) 0%, rgba(162, 87, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    overflow-x:hidden;
+    overflow-y:hidden;
+    display: flex;
+}
+.box{
+    width:95%;
+    height:93.5%;
+    margin-left: 40px;
+    margin-top: 40px;
+    /* margin:15px; */
+    justify-content: center;
+    /* align-items: center; */
+    padding:2px;
+    background-color: white;
+    overflow-x: none;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greeks{
+    color: green;
+}
+.box2{
+   margin-top:6px;
+   margin-left: 1300px;
+      /* visible on page */
+}
+
+.search{
+    width:80px;
+    height:30px;
+    background-color: rgb(224, 62, 62);
+    color: rgb(252, 249, 249);
+    font-style: italic;
+    font-size: large;
+}
+.image{
+    width:1300px;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+}
+.image1{
+    margin:16px;
+    margin-bottom: 1px;
+    padding:2px;
+    width:260px;
+    height:255px;
+    border:2px solid rgb(116, 42, 42);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition-property: all;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(206, 49, 49);
+}
+.h1{
+    font-style: normal;
+    margin-top:2px;
+}
+.pic1{
+    margin-top: 5px;
+}
+.price{
+    margin-top: 4px;
+    color: rgb(16, 17, 16);
+}
+.image2{
+    width:1300px;
+    height:300px;
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 2px;
+}
+
+.image3{
+    margin:16px;
+    margin-top:1px;
+    margin-bottom: 72px;
+    padding:2px;
+    width:260px;
+    height:255px;
+    border:2px solid rgb(116, 42, 42);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition-property: all;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(206, 49, 49);
+}
+.imagesection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
