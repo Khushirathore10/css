@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background: #f7f0f7;
+    background: linear-gradient(90deg, rgba(247, 240, 247, 1) 0%, rgba(162, 87, 199, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border-radius: 20px;
+    width:320px;
+    height:400px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding:30px;
+}
+.image{
+    border-radius: 10px;
+}
+.h{
+    font-size: 1rem;
+    font-weight:bold;
+}
+.p{
+    font-size: 1.2em;
+}
+.cancelbox a{
+    text-decoration: none;
+    color: rgb(21, 24, 100);
+}
